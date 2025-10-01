@@ -20,13 +20,15 @@ body{
 
 #calculator_display{
     margin: 2% auto;
+    padding-right: 2%;
+    min-height: 80px;
     height: auto;
     width: 90%;
     background-color: grey;
     color: lightgrey;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     font-size: 40px;
 }
